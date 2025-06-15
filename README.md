@@ -1,16 +1,20 @@
-# myapp
+# Financiamento
 
-A new Flutter project.
+## Descrição do projeto
+O Simulador de Financiamento é um app em Flutter que ajuda o usuário a planejar compras parceladas, como carros ou imóveis. Ao inserir o valor do financiamento, taxa de juros, número de parcelas e taxas adicionais, o app calcula o valor total a ser pago e o valor das parcelas, oferecendo uma visão clara do compromisso financeiro e facilitando o planejamento do orçamento.
 
-## Getting Started
+## Print
+![alt text](./assets/print.png)
 
-This project is a starting point for a Flutter application.
+## Tecnologias
+- Flutter
+- Dart
+- Firebase Studio
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Passo a passo de como executar
+- Clone este repositório
+-  Abra com VsCode ou Android Studio, com   um terminal instale as dependências e execute no emulador ou navegador
+```
+flutter pub get
+flutter run
+```
